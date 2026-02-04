@@ -9,6 +9,6 @@ We reconstruct four incremental datasets (i.e., **ReVerb45K<sub>0.6</sub>**, **R
 
 
 
-You can find these datasets here: [Incremental OKB Canonicalization Datasets](https://drive.google.com/drive/folders/1k26raklu9_oszO7ze8ISIIafRPB73LS4?usp=drive_link).
+You can download these datasets via the following google drive link: [Incremental OKB Canonicalization Datasets](https://drive.google.com/drive/folders/1k26raklu9_oszO7ze8ISIIafRPB73LS4?usp=drive_link).
 
 
