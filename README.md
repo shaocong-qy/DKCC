@@ -9,7 +9,7 @@ We reconstruct four incremental datasets (i.e., **ReVerb45K<sub>0.6</sub>**, **R
 
 ![image](code/datasets.png)
 
-You can download these datasets via the following Google Drive link: [Incremental OKB Canonicalization Datasets](https://drive.google.com/drive/folders/1k26raklu9_oszO7ze8ISIIafRPB73LS4?usp=drive_link).
+You can download these datasets via the following Google Drive link and then store them in the DKCC/ paths : [Incremental OKB Canonicalization Datasets](https://drive.google.com/drive/folders/1k26raklu9_oszO7ze8ISIIafRPB73LS4?usp=drive_link).
 
 ## Reproduce
 ### Run DKCC on the **ReVerb45K<sub>0.6</sub>**, **ReVerb45K<sub>0.8</sub>** dataset:
