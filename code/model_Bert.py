@@ -431,13 +431,11 @@ class Bert_Model(object):
 
 
             print(f"task_num_{task_num}:  learning start.")
-            start_time_train = time.perf_counter()
-
-
 
             cl_loss_func_inbatch = ContrastiveLossWithInBatchNegatives(temperature=self.p.temperature)
             cl_loss_func_hard = ContrastiveLossWithHardNegatives(temperature=self.p.temperature)
-
+            torch.cuda.synchronize()
+            start_time_train = time.perf_counter()
             for epoch in range(self.epochs):
 
                 for stru_epoch in range(self.stru_epochs):
@@ -527,7 +525,7 @@ class Bert_Model(object):
 
 
 
-
+            torch.cuda.synchronize()
             end_time_train = time.perf_counter()
             elapsed = end_time_train - start_time_train
 
