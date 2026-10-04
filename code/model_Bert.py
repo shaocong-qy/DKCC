@@ -321,7 +321,7 @@ class Bert_Model(object):
                     if key in crr_np_contexts:
 
                         parts = crr_np_contexts[key].split("[context] ", 1)
-                        crr_np_contexts[key] = pre_np_contexts[key] + parts[1]
+                        crr_np_contexts[key] = parts[1] + pre_np_contexts[key]
 
                 self.snapshot_side_infos[task_num].sub2context = crr_np_contexts
 
